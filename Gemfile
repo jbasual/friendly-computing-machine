@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
@@ -42,3 +42,7 @@ group :development do
   gem 'web-console', '~> 2.0'
 end
 
+# Ember
+gem 'ember-rails', '~> 0.21.0'
+gem 'ember-source', '~> 1.8.0'
+gem 'handlebars-source', '~> 1.0'
